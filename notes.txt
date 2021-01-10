@@ -1,3 +1,5 @@
+https://www.jenkins.io/doc/tutorials/build-a-multibranch-pipeline-project/#setup-wizard
+
 # Forking
 # Log into GitHub acount, browse to project you want to fork, select fork from top right of page.
 
@@ -8,3 +10,6 @@ git remote -v
 # Add upstream remote
 git remote add upstream https://github.com/jenkins-docs/building-a-multibranch-pipeline-project.git
 git remote -v
+
+# Merge upstream master branch
+git merge upstream/master

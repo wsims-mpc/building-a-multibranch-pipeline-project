@@ -13,3 +13,5 @@ git remote -v
 
 # Merge upstream master branch
 git merge upstream/master
+
+# Manipulating local branches Master, Production, & Development

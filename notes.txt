@@ -1,0 +1,10 @@
+# Forking
+# Log into GitHub acount, browse to project you want to fork, select fork from top right of page.
+
+# Clone the porject from YOUR repo locally
+git clone https://github.com/wsims-mpc/building-a-multibranch-pipeline-project.git
+git remote -v
+
+# Add upstream remote
+git remote add upstream https://github.com/jenkins-docs/building-a-multibranch-pipeline-project.git
+git remote -v
